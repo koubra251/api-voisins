@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @voisin.name %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @voisin.number %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @voisin.address %>
+</p>
+
+<p>
+  <strong>Aboutme:</strong>
+  <%= @voisin.aboutme %>
+</p>
+
+<%= link_to 'Edit', edit_voisin_path(@voisin) %> |
+<%= link_to 'Back', voisins_path %>
